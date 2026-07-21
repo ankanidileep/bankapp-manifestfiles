@@ -24,7 +24,7 @@ spec:
         - configMapRef:
             name: bankapp-config
         - secretRef:
-            name: bankapp-secret
+            name: bankapp-db-secret
 
         resources:
           requests:
