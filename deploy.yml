@@ -23,6 +23,8 @@ spec:
         envFrom:
         - configMapRef:
             name: bankapp-config
+        - secretRef:
+            name: bankapp-secret
 
         resources:
           requests:
